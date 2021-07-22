@@ -1529,21 +1529,26 @@ font-size: 13px;
     .flex-card1 h3 a{
         font-weight: 600;
         font-size: 18px;
+        
     }
    
     
     .interview{
-        margin-top: 6rem
+        margin-top: 7rem
     }
     .webcast{
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-weight: 600 !important;
+    }
+    .all-events{
+        margin-bottom: 2rem;
     }
    
     .interview .calendar {
         margin-right: 1rem !important;
         font-size: 15px;
         font-weight: 600;
+    
         
     }
     .interview .video {
