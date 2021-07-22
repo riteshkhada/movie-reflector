@@ -1123,16 +1123,13 @@ padding: 1rem !important;
         font-size: 12px !important;
         padding: 8px;
     }
-    
-}
-@media screen and(max-width:660px) {
-    .flex-card1 p{
-      display: none !important;
-
+.upcomimg-event h3 {
+        font-size: 12px !important;
     }
-    
+    .investor-nav{
+        display: none !important;
+    }
 }
-
 
 }
 /*MODAL*/
@@ -1379,7 +1376,7 @@ font-size: 13px;
     .flex-card1 {
         background-color: rgba(255, 255, 255, 0.986);
         color: black;
-        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.336);
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.404);
         height: 28rem !important;
         width: 40%;
         margin-left: 5px;
@@ -1404,7 +1401,7 @@ font-size: 13px;
         
     }
     .flex-card1 p {
-        margin-top: -2rem;
+        margin-top: 3rem;
         font-weight: 600;
         font-size: 12px;
     }
@@ -1413,20 +1410,9 @@ font-size: 13px;
         font-size: 18px;
     }
    
-    .flex-card1 .annual{
-        font-size: 15px;
-        font-weight: 600;
-        color: red !important;
-        position: relative;
-        
-        padding: 1rem;
     
-
-    
-    
-    }
     .interview{
-        margin-top: -8px;
+        margin-top: 4rem
     }
     .webcast{
         margin-top: 2rem;
