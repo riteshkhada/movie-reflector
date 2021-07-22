@@ -996,7 +996,94 @@ padding: 1rem !important;
     
 }
 @media screen and (max-width:365px) {
+    .flex-card1 {
+        
+    width: 70rem !important;
+    position: relative;
+    }
+    .flex-card1 p {
+        margin-top: 3rem;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .investor-nav{
+        display: none;
+    }
+    .flex-card1 h3 a{
+        font-weight: 600;
+        font-size: 18px;
+    }
+   
     
+    .interview{
+        margin-top: 4rem;
+        
+        
+    }
+    .webcast{
+        margin-top: 2rem;
+        font-weight: 600 !important;
+        font-size: 12px !important;
+    }
+   
+    .interview .calendar {
+        
+        font-size: 10px !important;
+        font-weight: 600;
+        
+    }
+    .interview .video {
+        font-size: 10px !important;
+        font-weight: 600;
+        margin-top: -1rem;
+    }  
+    .flex-card-2 {
+       background-color: white !important;
+       color: black;
+       height: 28rem !important;
+    
+       
+       box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.342);
+       margin-right: 3rem;
+       display: flex !important;
+       flex-direction: column;
+       justify-content: space-between !important;
+    
+    }
+
+    .flex-card-2 li {
+        padding: 8px;
+        font-weight: 600;
+        font-size: 12px;
+        
+    }
+    
+    .flex-card-2 li:hover{
+        border-left: 5px rgba(255, 0, 0, 0.747) solid;
+    }
+    
+    
+    .company-profile1 p{
+        font-size: 12px ;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    .company-profile1 h1{
+        font-size: 15px;
+    }
+    .company-profile2 h1{
+        font-size: 18px;
+    }
+    .company-profile2 p{
+        font-size: 10px;
+    }
+    .company-profile2 h3{
+        font-size: 15px !important;
+    }
+    .upcomimg-event a{
+        font-size: 10px !important;
+        text-align: center;
+    }
     .about-company {
         height: 25rem !important;
         
@@ -1105,30 +1192,10 @@ padding: 1rem !important;
 
 
 }
-.company-profile1 p{
-    font-size: 15px;
-    margin-bottom: 10px;
-}
+
 
 .investor-logo span{
     display: none;
-}
-@media screen and(max-width:600px) {
-
-    .company-profile1 p {
-        font-size: 12px;
-        font-weight: 100 !important;
-    }
-    .flex-card-2 li{
-        font-size: 12px !important;
-        padding: 8px;
-    }
-.upcomimg-event h3 {
-        font-size: 12px !important;
-    }
-    .investor-nav{
-        display: none !important;
-    }
 }
 
 }
