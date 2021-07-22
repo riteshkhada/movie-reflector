@@ -1092,6 +1092,46 @@ padding: 1rem !important;
         margin-bottom: -2rem;
 
 }
+.flex-card1{
+    padding: 1rem;
+    width: 40rem !important;
+
+}
+.flex-card-2{
+    margin: 2rem !important;
+    
+    padding: 1rem !important;
+    width: 40rem !important;
+
+
+}
+.company-profile1 p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.investor-logo span{
+    display: none;
+}
+@media screen and(max-width:600px) {
+
+    .company-profile1 p {
+        font-size: 12px;
+        font-weight: 100 !important;
+    }
+    .flex-card-2 li{
+        font-size: 12px !important;
+        padding: 8px;
+    }
+    
+}
+@media screen and(max-width:660px) {
+    .flex-card1 p{
+      display: none !important;
+
+    }
+    
+}
 
 
 }
@@ -1224,23 +1264,22 @@ font-size: 13px;
     display: flex;
     justify-content: space-between;
      align-items: center;
-     margin-left: 2rem;
-     margin-right: 2rem;
-     background-color: white;
+    
+     background-color: black;
      
-     color: black;
+     color: white;
      box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.329) solid;
      
     }
     .investor-logo {
-        margin-left: 3rem !important;
+        margin-left: 1rem !important;
         font-size: 25px !important;
         color: rgba(255, 0, 0, 0.651);
         font-weight: 600;
         
     }
     .investor-logo span {
-        color: black;
+        color: white;
         font-weight: 600;
         margin-left: 10px;
         font-size: 14px !important;
@@ -1250,7 +1289,7 @@ font-size: 13px;
         list-style: none;
         justify-content: space-around !important;
         align-items: center;
-        padding: 1rem;
+        padding: 5px;
     }
     .investor-nav li:hover{
         cursor: pointer !important;
@@ -1291,13 +1330,14 @@ font-size: 13px;
     .company-profile h1,p {
         z-index: 1000;
         position: absolute;
-        padding: 3rem;
+        padding: 1rem;
+        
     }
     .company-profile1 h1 {
-        margin-top: -14rem;
+        margin-top: -16rem;
     }
     .company-profile1 p {
-        margin-top: 6rem;
+        margin-top: 3rem;
     }
     .company-profile2 {
         
@@ -1313,10 +1353,12 @@ font-size: 13px;
 
     }
     .company-profile2 h1 {
-        margin-left: 4rem !important;
-        margin-top: -7rem;
+        margin-top: -1rem;
+        position: relative;
+    
     }
     .company-profile2 h3 {
+        position: relative;
         margin-top: 7rem;
     }
     .flex-card {
@@ -1338,9 +1380,10 @@ font-size: 13px;
         background-color: rgba(255, 255, 255, 0.986);
         color: black;
         box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.336);
-        height: 25rem !important;
+        height: 28rem !important;
         width: 40%;
-        margin-left: 4rem;
+        margin-left: 5px;
+        padding: 1rem !important;
         
         display: flex !important;
         justify-content: space-evenly;
@@ -1361,7 +1404,7 @@ font-size: 13px;
         
     }
     .flex-card1 p {
-        margin-top: 2rem;
+        margin-top: -2rem;
         font-weight: 600;
         font-size: 12px;
     }
@@ -1374,18 +1417,24 @@ font-size: 13px;
         font-size: 15px;
         font-weight: 600;
         color: red !important;
+        position: relative;
+        
+        padding: 1rem;
+    
+
+    
     
     }
     .interview{
         margin-top: -8px;
     }
     .webcast{
-        margin-top: -2rem;
+        margin-top: 2rem;
         font-weight: 600 !important;
     }
    
     .interview .calendar {
-        margin-right: 6rem !important;
+        margin-right: 1rem !important;
         font-size: 15px;
         font-weight: 600;
         
@@ -1394,16 +1443,7 @@ font-size: 13px;
         font-size: 15px;
         font-weight: 600;
         margin-top: -1rem;
-    }
-   
-    
-    
-    
-   
-   
-   
-   
-    
+    }  
     .flex-card-2 {
        background-color: white !important;
        color: black;
@@ -1417,22 +1457,17 @@ font-size: 13px;
        justify-content: space-between !important;
     
     }
-    .flex-card-2 ul {
-        margin-top: 2rem;
-    }
+
     .flex-card-2 li {
         padding: 8px;
         font-weight: 600;
         
     }
+    
     .flex-card-2 li:hover{
         border-left: 5px rgba(255, 0, 0, 0.747) solid;
     }
-    @media screen and(max-width:768px) {
-      .flex-card1 a{
-          margin-left: -10rem;
-          }       
-    }
+    
     
     
     /*privacy*/
