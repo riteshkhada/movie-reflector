@@ -993,6 +993,9 @@ padding: 1rem !important;
         transform: translateY(14rem) !important;
         font-size: 10px;
     }
+    .paragraph3{
+        font-size: 18px;
+    }
     
 }
 @media screen and (max-width:365px) {
@@ -1711,14 +1714,18 @@ font-size: 13px;
         margin-top: 7rem;
         font-size: 15px;
     }
+    .privacy-statement h3{
+        margin-top: -3rem;
+    }
     .privacy-statement h2 {
         margin-top: -5rem;
         position: absolute;
         color: rgba(255, 0, 0, 0.877);
     }
+    
     .paragraph1 {
         margin-top: -5rem;
-        padding: 3rem;
+        
         position: relative;
     }
     .paragraph3 a{
@@ -1728,7 +1735,7 @@ font-size: 13px;
     
     .paragraph6{
         position: relative;
-        margin-top: -7rem;
+        
         font-size: 18px;
         font-weight: 600;
         
@@ -1756,6 +1763,7 @@ font-size: 13px;
     }
     .link-paragraph{
         margin-top: 3rem;
+        position: relative;
     }
     .link-paragraph a{
         color: black;
@@ -1788,6 +1796,11 @@ font-size: 13px;
     
     .mini-footer a:active{
         color: red;
+    }
+    @media screen and(max-width:900px) {
+        .privacy-nav2 .privacy-btn{
+            margin-right: 5rem !important;
+        }
     }
 
     /*help center*/
@@ -1967,6 +1980,7 @@ font-size: 13px;
     .main-section .help-btn{
         margin-left: 2.5rem;
     }
+    
     
     /*popular topic*/
     .popular-topics {
