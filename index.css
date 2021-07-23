@@ -764,7 +764,7 @@ color: white;
 .live-sports-content .sub-text {
     font-size: 20px !important;
     letter-spacing: 1px;
-    margin-top: 8px !important;
+    margin-top: 30px !important;
     color: white!important;
     font-weight: 400 !important;
     text-align: center;
@@ -832,7 +832,7 @@ color: white;
     }
     .live-sports-content .sub-text {
         font-size: 18px !important;
-        margin-top: 3rem !important;
+        margin-top: 5rem !important;
         font-weight: 600 !important;
         text-align: center;
     }
@@ -862,6 +862,7 @@ color: white;
         font-size: 15px !important;
         color: white;
         font-weight: 400px;
+        margin-top: 2rem !important;
            
         
     }
