@@ -1252,7 +1252,9 @@ padding: 1rem !important;
     display: none;
 }
 
+
 }
+
 /*MODAL*/
 .modal {
     
@@ -1868,11 +1870,11 @@ font-size: 13px;
     .form-label {
       position: absolute;
       margin-top: -3.5rem;
-      transform: translateX(26rem);
+      transform: translateX(16rem);
       font-weight: 600;
     }
     .search-button {
-        margin-left: 20rem !important;
+        margin-left: 10rem !important;
         transform: translateY(5.3rem);
         color: black;
         position: absolute;
@@ -1885,7 +1887,7 @@ font-size: 13px;
     }
     .input-group .form-control {
         padding: 9px;
-        width: 30rem !important;
+        width: 20rem !important;
         border-radius: 5px;
     }
     .form-outline h2 {
@@ -1934,7 +1936,7 @@ font-size: 13px;
         margin-top: 6rem;
         height: 9rem;
         background-color:white;
-        margin-left: 9rem;
+        
         
     }
     .popular-topic1,.popular-topic2,.popular-topic3 {
@@ -1954,7 +1956,7 @@ font-size: 13px;
         width: 60% !important;
         top: 0;
         left: 0;
-        margin-left: 15rem;
+        
        
 
     
@@ -1971,17 +1973,15 @@ font-size: 13px;
         
     
     }
-    .accordion-item:focus{
-        outline: none !important;
-    }
+    
 
 /*form control*/
 .form-group .form-control{
     width: 40% !important;
-    transform: translateX(26rem);
+    margin-left: 3.5rem;
 }
 .btn-primary{
-    transform: translateX(32em);
+    margin-left: 3.5rem;
     margin-bottom: 4rem;
     width: 20%;
     font-size: 16px !important;
@@ -2005,18 +2005,7 @@ font-size: 13px;
 .frequent-q{
     font-size: 26px;
     font-weight: 600;
-    margin-left: 25rem;
+    margin-left: 4rem;
     margin-top: 1rem;
     color: white;
 }
- @media screen and(max-width:768px) {
-    .frequent-q{
-        font-size: 23px;
-        font-weight: 600;
-         
-        margin-top: 1rem;
-        color: white;
-        position: relative;
-    }
-     
- }
