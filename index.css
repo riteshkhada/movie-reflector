@@ -1266,6 +1266,7 @@ padding: 1rem !important;
 }
 .modal-body a{
     font-size: 15px !important;
+    font-weight: 600;
 }
 
 }
