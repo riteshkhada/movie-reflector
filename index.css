@@ -650,7 +650,7 @@ color: white;
     word-spacing: 1px;
 }
  .live-border .alink {
-    font-size: 11px;
+    font-size: 15px !important;
     margin-top: 8rem !important;
     letter-spacing: 1px;
 }
@@ -734,7 +734,7 @@ color: white;
 .live-sports .legal-text {
     color: white;
     font-weight: 500;
-    margin-top: -10rem;
+    margin-top: -12rem;
     font-size: 15px;
     letter-spacing: 1px;    
 }
@@ -743,14 +743,14 @@ color: white;
     justify-content: flex-start;
     align-items: center;   
     padding: 1rem;
-    margin-top: 15rem;
+    margin-top: 13rem !important;
     
 }
 .live-sports img {
     height: 3rem;
     margin: 5px;
     border-radius: 70px;
-    margin-top: 5rem !important;
+    margin-top: 10rem !important;
 
 
 }
