@@ -1255,6 +1255,9 @@ padding: 1rem !important;
 .investor-logo span{
     display: none;
 }
+.mini-footer-ul a{
+    font-size: 15px;
+}
 
 
 }
@@ -1753,18 +1756,18 @@ font-size: 13px;
         height: 10rem!important;
 
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: row;
 
     }
     .mini-footer a{
         margin-right: 2rem;
+        font-size: 16px;
+        color: white;
         
     }
-    .mini-footer a:hover{
-        text-decoration: underline;
-    }
+    
     .mini-footer a:active{
         color: red;
     }
@@ -2018,9 +2021,7 @@ font-size: 13px;
     background-color: rgb(29, 28, 28)!important;
     
 }
-.mini-footer a{
-    color: white;
-}
+
 .help-center-footer .mini-footer a:hover{
     color: white !important;
 }
