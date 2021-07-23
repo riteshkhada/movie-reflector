@@ -1796,6 +1796,7 @@ font-size: 13px;
         display: flex !important;
         justify-content: space-between;
         align-items: center;
+        flex-direction: column;
         margin-right: 3rem;
         margin-left: 3rem;
         margin-top: 2rem;
@@ -1811,6 +1812,8 @@ font-size: 13px;
     background-color: rgba(255, 0, 0, 0.808);
     color: white;
     margin-right: 2rem;
+    
+
 }
     .help-nav3{
         background-color: rgba(255, 255, 255, 0.5);
@@ -1827,7 +1830,7 @@ font-size: 13px;
     
     
     .help-nav3 h5 {
-        margin-top: 3rem;
+        margin-top: 2rem;
         font-weight: 600;
         font-size: 20px;
         color: black !important;
@@ -1858,6 +1861,7 @@ font-size: 13px;
         color: white;
         border: none;
         cursor: pointer;
+        
     }
     
     
@@ -1870,6 +1874,8 @@ font-size: 13px;
         cursor: pointer;
         font-size: 15px;
         font-weight: 700;
+        
+        
         
     }
     .help-btn2:active{
@@ -1920,7 +1926,7 @@ font-size: 13px;
     .main-section .help-btn2 {
         margin-top: 1rem;
         cursor: pointer;
-    
+        margin-right: 2rem;
         background-color: white;
         color: black;
         font-weight: 600;
@@ -1952,7 +1958,8 @@ font-size: 13px;
         background-color: rgba(255, 255, 255, 0.877);
         color: black;
         width: 15rem;
-        margin: 1rem;
+        
+        margin-right: 1rem;
         margin-top: 4rem;
         padding: 7px;
         font-family: Arial, Helvetica, sans-serif;
@@ -1982,6 +1989,8 @@ font-size: 13px;
         
     
     }
+    
+    
     
 
 /*form control*/
@@ -2017,11 +2026,4 @@ font-size: 13px;
     margin-left: 4rem;
     margin-top: 1rem;
     color: white;
-}
-@media screen and(max-width:768px) {
-    .help-nav2{
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center;
-    }
 }
