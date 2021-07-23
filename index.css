@@ -2009,4 +2009,14 @@ font-size: 13px;
     margin-top: 1rem;
     color: white;
 }
- 
+ @media screen and(max-width:768px) {
+    .frequent-q{
+        font-size: 23px;
+        font-weight: 600;
+         
+        margin-top: 1rem;
+        color: white;
+        position: relative;
+    }
+     
+ }
