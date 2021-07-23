@@ -987,7 +987,7 @@ padding: 1rem !important;
     }
     
     .about-company h5 {
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 200;
         text-align: center;
     }
@@ -1092,7 +1092,8 @@ padding: 1rem !important;
         display: inline-block !important;
         justify-content: center;
         align-items: center;
-        font-weight: 300;        
+        font-weight: 300; 
+       
     
           
     }
@@ -1151,6 +1152,7 @@ padding: 1rem !important;
         display: inline-block !important;
         justify-content: center;
         align-items: center;
+        margin-top: 1rem;
 
     
     
