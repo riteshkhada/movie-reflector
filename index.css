@@ -64,7 +64,7 @@
     
      padding: 8px 12px;
      margin-left: 4rem;
-     
+     margin-top: 1rem;
      cursor: pointer;
      z-index: 1000;
      position:absolute;
@@ -575,7 +575,7 @@ color: white;
         flex-direction: column;
     }
     .covers2 .cover-text {
-        transform: translateY(4rem);
+        transform: translateY(7rem);
     }
     .covers3 .cover-text {
         transform: translateY(6rem);
@@ -651,7 +651,7 @@ color: white;
 }
  .live-border .alink {
     font-size: 11px;
-    margin-top: 3rem;
+    margin-top: 8rem !important;
     letter-spacing: 1px;
 }
 @media screen and (max-width:1000px) {
