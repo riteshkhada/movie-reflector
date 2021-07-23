@@ -1803,6 +1803,15 @@ font-size: 13px;
         position: relative;
     
     }
+    .help-nav2 .help-btn{
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.808);
+    color: white;
+    margin-right: 2rem;
+}
     .help-nav3{
         background-color: rgba(255, 255, 255, 0.5);
         height: 5rem !important;
@@ -1842,7 +1851,7 @@ font-size: 13px;
         position: relative;
 
     }
-    .help-btn {
+    .help-nav3 .help-btn {
         padding: 12px;
         margin-right: 2rem;
         background-color: rgba(255, 0, 0, 0.863);
@@ -1852,7 +1861,7 @@ font-size: 13px;
     }
     
     
-    .help-btn:active{
+    .help-nav3 .help-btn:active{
         background-color: rgba(255, 0, 0, 0.747);
     }
     .help-center-main .help-btn2 {
@@ -2008,4 +2017,11 @@ font-size: 13px;
     margin-left: 4rem;
     margin-top: 1rem;
     color: white;
+}
+@media screen and(max-width:768px) {
+    .help-nav2{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+    }
 }
